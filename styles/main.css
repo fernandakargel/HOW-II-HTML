@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+
+.logo{
+    width: 350px;
+}
+
+.topo{
+    top: 0px;
+    background-color: #003f20;
+    text-align: center;
+    padding: 1%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    color: rgb(252, 190, 190);
+    border-bottom: 5px solid #333333;
+}
+
+.topo a{
+    color: rgb(252, 190, 190);
+    text-decoration: none;
+}
+
+.conteudo{
+    margin: 10%;
+}
+
+.tabela{
+    display: table-row-group;
+}
+
+.linha{ 
+    display: table-row;
+}
+
+.quadro{
+    width: 28%;
+    height: 300px;
+    display: table-cell;
+    border-style: solid;
+    margin: 20px;
+    padding: 1%;
+    min-width: 250px;
+    border-radius: 30px 10px;
+    background-color: rgb(252, 190, 190);
+    border: 2px solid #333333;
+}
+
+.quadro img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer{
+    text-align: center;
+}
